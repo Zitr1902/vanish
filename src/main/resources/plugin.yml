@@ -1,0 +1,29 @@
+name: Vanish
+version: '1.0.0'
+main: com.sanya.vanish.VanishPlugin
+api-version: '1.21'
+authors: [ sanya ]
+softdepend: [ PlaceholderAPI ]
+
+commands:
+  vanish:
+    description: Toggle vanish mode.
+    usage: /vanish [player]
+    aliases: [ v ]
+    permission: vanish.use
+  vanishreload:
+    description: Reload Vanish config.
+    usage: /vanishreload
+    aliases: [ vr ]
+    permission: vanish.reload
+
+permissions:
+  vanish.use:
+    description: Allows player to toggle vanish mode.
+    default: false
+  vanish.see:
+    description: Allows player to see vanished players.
+    default: false
+  vanish.reload:
+    description: Allows reloading Vanish config.
+    default: false

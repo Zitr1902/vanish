@@ -1,0 +1,18 @@
+vanish:
+  enable-flight: true
+  no-clip-spectator: true
+
+messages:
+  prefix: "&8[&bVanish&8] "
+  enabled: "&aВаниш включен"
+  disabled: "&cВаниш выключен"
+  no-permission: "&cУ тебя нет прав: &fvanish.use"
+  no-permission-reload: "&cУ тебя нет прав: &fvanish.reload"
+  reloaded: "&aКонфиг Vanish перезагружен."
+  still-vanished: "&eВы по-прежнему невидимы."
+  target-not-found: "&cИгрок не найден."
+  teleported: "&aТы телепортирован к игроку: &f%target%"
+
+broadcast:
+  fake-quit: "&e%player% вышел с сервера"
+  fake-join: "&e%player% зашел на сервер"
